@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Shrushik\'s Counter</string>
+    <string name="reset">Reset</string>
+    <string name="increment_plus_sign">+</string>
+    <string name="decrement_minus_sign">-</string>
+    <string name="soundLabel">Sound</string>
+    <string name="vibrationLabel">Vibration</string>
+    <string name="footnotes">Made with &#10084; for Shruthi from Koushik</string>
+</resources>
