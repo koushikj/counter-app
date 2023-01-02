@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
         counter.setText(String.valueOf(currentCount));
         soundSwitch = findViewById(R.id.soundToggle);
         vibrationSwitch = findViewById(R.id.vibrationToggle);
-        soundSwitch.setChecked(true);
-        vibrationSwitch.setChecked(true);
+        soundSwitch.setChecked(false);
+        vibrationSwitch.setChecked(false);
     }
 
     public void increment(View view) {
