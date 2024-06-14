@@ -10,7 +10,6 @@ import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.Switch;
 import android.widget.TextView;
 
 import com.google.android.material.switchmaterial.SwitchMaterial;
@@ -85,6 +84,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void resetCounter(View view) {
+        if(currentCount==0){
+            return;
+        }
         sound();
         vibrate(50);
         Log.i("before reset",String.valueOf(currentCount));
